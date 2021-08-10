@@ -25,6 +25,9 @@ namespace CargarDatos
             {
                 Console.WriteLine(linea);
                     var arregloDatos = linea.Split(',');
+                    if(arregloDatos.Length==7){
+
+                    
                     EntidadFederativa entidadesInsertar = new EntidadFederativa();
                     int EntidadId = 0;
                     if(int.TryParse(arregloDatos[0].Replace('"', ' ').TrimEnd().TrimStart(), out EntidadId))
@@ -44,16 +47,24 @@ namespace CargarDatos
                         
                         
                     }
+                    int TotalDeViviendasHabitadas =  0;
+                    if(int.TryParse(arregloDatos[4].Replace('"', ' ').TrimEnd().TrimStart(), out TotalDeViviendasHabitadas)){
+
+                        entidadesInsertar.TotalDeViviendasHabitadas = TotalDeViviendasHabitadas;
+                        
+                        
+                    }
+                    
 
                     int PoblacionMasculina = 0;
-                    if(int.TryParse(arregloDatos[4].Replace('"', ' ').TrimEnd().TrimStart(), out PoblacionMasculina)){
+                    if(int.TryParse(arregloDatos[5].Replace('"', ' ').TrimEnd().TrimStart(), out PoblacionMasculina)){
 
                         entidadesInsertar.PoblacionMasculina = PoblacionMasculina;
                         
                         
                     }
                     int PoblacionFemenina = 0;
-                    if(int.TryParse(arregloDatos[5].Replace('"', ' ').TrimEnd().TrimStart(), out PoblacionFemenina)){
+                    if(int.TryParse(arregloDatos[6].Replace('"', ' ').TrimEnd().TrimStart(), out PoblacionFemenina)){
 
                         entidadesInsertar.PoblacionFemenina = PoblacionFemenina;
 
@@ -63,7 +74,7 @@ namespace CargarDatos
 
                 
                 } 
-            
+            }    
                 
                 using(var BaseDeDatos = new EmmaElcoBitContext()){
 

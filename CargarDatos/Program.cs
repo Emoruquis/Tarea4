@@ -10,6 +10,7 @@ namespace CargarDatos
             Console.WriteLine("Hello World!");
             string rutaArchivo = System.IO.Path.GetFullPath("Archivos/EntidadFederativa.csv");
             CargarArchivos carga = new CargarArchivos(rutaArchivo);
+            carga.cargarEntidades();
         }
     }
 }

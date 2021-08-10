@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MouZWoc61DzUBnuzYPGiFYUE8F1sHypJcHUihOuL+mEStHglQxAGin+dK24D+nF8wzFavk8c8ByaGNp3kz4kCA==",
+  "dgSpecHash": "g8umB+q92n8Jp/pj3kqqFp/mLw5ceqGSAYlvgOhzG85cPwZqNsE30PC3TKu3PcytyJ1joy2edLMWNDA/GaP9yg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fsalinas\\Desktop\\CargarDatos\\CargarDatos.csproj",
+  "projectFilePath": "C:\\Users\\fsalinas\\Desktop\\Tarea4\\CargarDatos\\CargarDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fsalinas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fsalinas\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

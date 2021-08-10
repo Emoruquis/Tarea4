@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fsalinas\\Desktop\\CargarDatos\\CargarDatos.csproj": {}
+    "C:\\Users\\fsalinas\\Desktop\\Tarea4\\CargarDatos\\CargarDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fsalinas\\Desktop\\CargarDatos\\CargarDatos.csproj": {
+    "C:\\Users\\fsalinas\\Desktop\\Tarea4\\CargarDatos\\CargarDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fsalinas\\Desktop\\CargarDatos\\CargarDatos.csproj",
+        "projectUniqueName": "C:\\Users\\fsalinas\\Desktop\\Tarea4\\CargarDatos\\CargarDatos.csproj",
         "projectName": "CargarDatos",
-        "projectPath": "C:\\Users\\fsalinas\\Desktop\\CargarDatos\\CargarDatos.csproj",
+        "projectPath": "C:\\Users\\fsalinas\\Desktop\\Tarea4\\CargarDatos\\CargarDatos.csproj",
         "packagesPath": "C:\\Users\\fsalinas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fsalinas\\Desktop\\CargarDatos\\obj\\",
+        "outputPath": "C:\\Users\\fsalinas\\Desktop\\Tarea4\\CargarDatos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fsalinas\\AppData\\Roaming\\NuGet\\NuGet.Config"
